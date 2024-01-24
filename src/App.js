@@ -6,6 +6,11 @@ import Features from './Features';
 import Services from './Services';
 import ServiceDetail from './ServiceDetail';
 import Pricing from './Pricing';
+import Advantageous from './Advantageous';
+import Testimonials from './Testimonials';
+import About from './About';
+import News from './News';
+import Contact from './Contact';
 
 
 function App() {
@@ -17,6 +22,11 @@ function App() {
       <Services/>
       <ServiceDetail/>
       <Pricing/>
+      <Advantageous/>
+      <Testimonials/>
+      <About/>
+      <News />
+      <Contact/>
     </div>
   );
 }
