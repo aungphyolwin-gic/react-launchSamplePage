@@ -8,31 +8,31 @@ import React from 'react'
 export default function New() {
   return (
     <> 
-        <div className='untree-session bg-light'>
-            <div className='contianer'>
+       <div className='untree-session bg-light pt-5 pb-5'>
+            <div className='container'>
                 <div className='row mb-4'>
                     <div className='col-12 text-center'>
-                        <h2 className='heading'>Our News</h2>
-                        <p>Far from the countries Vokalia and Consonantia</p>
+                        <h2 className='display-2 fs-1 fw-normal'>Our News</h2>
+                        <p className='mb-4 text-muted'>Far from the countries Vokalia and Consonantia</p>
                     </div>
                 </div>
-                <div className='row'>
+                <div className='row justify-content-center'>
                     {/* card 1  */}
-                    <div className='col-md-6 mb-4 col-lg-4 '>
-                        <div className='p-3'>
+                    <div className='col-md-3 m-2 bg-white'>
+                        <div className='p-3 text-start'>
                             <div className='d-flex align-items-center mb-4'>
                                 <div>
-                                    <img src={Profile1} alt='Img1' className='img-fluid rounded-pill' width='50px' height='50px' />
+                                    <img src={Profile1} alt='Img1' className='img-fluid rounded-pill me-2' width='50px' height='50px' />
                                 </div>
-                                <div>
-                                    <strong className=' d-block'>Posted By James</strong>
-                                    <span>Jun 14, 2020</span>
+                                <div className=''>
+                                    <strong className='d-block fw-normal'>Posted By James</strong>
+                                    <span className=' text-body-tertiary'>Jun 14, 2020</span>
                                 </div>
                             </div>
                             <div className='mb-4'>
-                                <span className='caption'>Digital Service, 4 min read</span>
-                                <h3>
-                                    <a className='text-primary text-decoration-none' href='#'>
+                                <span className=' text-body-tertiary'>Digital Service, 4 min read</span>
+                                <h3 className='mt-2 fs-5 fw-normal'>
+                                    <a className='text-decoration-none text-black' href='#'>
                                         Far far away behind the word mountains far from the countries
                                     </a>
                                 </h3>
@@ -42,21 +42,21 @@ export default function New() {
                     </div>
 
                     {/* card 2 */}
-                    <div className='col-md-6 mb-4 col-lg-4 '>
-                        <div className='p-3'>
+                    <div className='col-md-3 m-2 bg-white'>
+                        <div className='p-3 text-start'>
                             <div className='d-flex align-items-center mb-4'>
                                 <div>
-                                    <img src={Profile2} alt='Img1' className='img-fluid rounded-pill' width='50px' height='50px' />
+                                    <img src={Profile2} alt='Img1' className='img-fluid rounded-pill me-2' width='50px' height='50px' />
                                 </div>
-                                <div>
-                                    <strong className=' d-block'>Posted By James</strong>
-                                    <span>Jun 14, 2020</span>
+                                <div className=''>
+                                    <strong className='d-block fw-normal'>Posted By Khan</strong>
+                                    <span className=' text-body-tertiary'>Jun 14, 2020</span>
                                 </div>
                             </div>
                             <div className='mb-4'>
-                                <span className='caption'>Digital Service, 4 min read</span>
-                                <h3>
-                                    <a className='text-primary text-decoration-none' href='#'>
+                                <span className=' text-body-tertiary'>Digital Service, 4 min read</span>
+                                <h3 className='mt-2 fs-5 fw-normal'>
+                                    <a className='text-decoration-none text-black' href='#'>
                                         Far far away behind the word mountains far from the countries
                                     </a>
                                 </h3>
@@ -66,21 +66,21 @@ export default function New() {
                     </div>
 
                     {/* card 3 */}
-                    <div className='col-md-6 mb-4 col-lg-4 '>
-                        <div className='p-3'>
+                    <div className='col-md-3 m-2 bg-white'>
+                        <div className='p-3 text-start'>
                             <div className='d-flex align-items-center mb-4'>
                                 <div>
-                                    <img src={Profile3} alt='Img1' className='img-fluid rounded-pill' width='50px' height='50px' />
+                                    <img src={Profile3} alt='Img1' className='img-fluid rounded-pill me-2' width='50px' height='50px' />
                                 </div>
-                                <div>
-                                    <strong className=' d-block'>Posted By James</strong>
-                                    <span>Jun 14, 2020</span>
+                                <div className=''>
+                                    <strong className='d-block fw-normal'>Posted By Rob</strong>
+                                    <span className=' text-body-tertiary'>Jun 14, 2020</span>
                                 </div>
                             </div>
                             <div className='mb-4'>
-                                <span className='caption'>Digital Service, 4 min read</span>
-                                <h3>
-                                    <a className='text-primary text-decoration-none' href='#'>
+                                <span className=' text-body-tertiary'>Digital Service, 4 min read</span>
+                                <h3 className='mt-2 fs-5 fw-normal'>
+                                    <a className='text-decoration-none text-black' href='#'>
                                         Far far away behind the word mountains far from the countries
                                     </a>
                                 </h3>

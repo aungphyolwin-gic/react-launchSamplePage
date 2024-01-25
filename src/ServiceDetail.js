@@ -1,64 +1,70 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPoll } from '@fortawesome/free-solid-svg-icons'
+import { faArrowsRotate, faBriefcase, faClone, faPoll } from '@fortawesome/free-solid-svg-icons'
 
 export default function ServiceDetail() {
   return (
     <>
-        <div className='container'>
-            <div className='row'>
-                {/* Grow your Business */}
-                <div className='col-md-6 col-lg-3'>
-                    <div className='service'>
-                        <div className='service-icon mb-4 '>
-                            <FontAwesomeIcon icon={faPoll} className='fa-3x text-info' /> 
-                        </div>
-                        <div className='service-contents'>
-                            <h3>Grow Your Business</h3>
-                            <p>Far far away, behind the word mountains, 
-                                far from the countries Vokalia and Consonantia.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                {/* Build Products */}
-                <div className='col-md-6 col-lg-3'>
-                    <div className='service'>
-                        <div className='service-icon mb-4'>
-                            <FontAwesomeIcon icon={faPoll} className='fa-3x text-warning' /> 
-                        </div>
-                        <div className='service-contents'>
-                            <h3>Grow Your Business</h3>
-                            <p>Far far away, behind the word mountains, 
-                                far from the countries Vokalia and Consonantia.</p>
+        <div className='untree-session pt-5 pb-5'>
+            <div className='container'>
+                <div className='row text-start'>
+                    {/* Grow your Business */}
+                    <div className='col-md-6 col-lg-3'>
+                        <div className='service'>
+                            <div className='service-icon mb-4 '>
+                                <FontAwesomeIcon icon={faPoll} className='fa-3x text-info' /> 
+                            </div>
+                            <div className='service-content'>
+                                <h3 className=' fw-normal fs-4'>Grow Your Business</h3>
+                                <p className='text-muted fs-6'>Far far away, behind the word mountains, 
+                                    far from the countries Vokalia and Consonantia, 
+                                    there live the blind texts.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    
+                    {/* Build Products */}
+                    <div className='col-md-6 col-lg-3'>
+                        <div className='service'>
+                            <div className='service-icon mb-4'>
+                                <FontAwesomeIcon icon={faArrowsRotate} className='fa-3x text-warning' /> 
+                            </div>
+                            <div className='service-content'>
+                                <h3 className=' fw-normal fs-4'>Build Products</h3>
+                                <p className='text-muted fs-6'>Far far away, behind the word mountains, 
+                                    far from the countries Vokalia and Consonantia, 
+                                    there live the blind texts.</p>
+                            </div>
+                        </div>
+                    </div>
 
-                {/* Success Every Day */}
-                <div className='col-md-6 col-lg-3'>
-                    <div className='service'>
-                        <div className='service-icon mb-4'>
-                            <FontAwesomeIcon icon={faPoll} className='fa-3x text-danger'/> 
-                        </div>
-                        <div className='service-contents'>
-                            <h3>Grow Your Business</h3>
-                            <p>Far far away, behind the word mountains, 
-                                far from the countries Vokalia and Consonantia.</p>
+                    {/* Success Every Day */}
+                    <div className='col-md-6 col-lg-3'>
+                        <div className='service'>
+                            <div className='service-icon mb-4'>
+                                <FontAwesomeIcon icon={faBriefcase} className='fa-3x text-danger'/> 
+                            </div>
+                            <div className=''>
+                                <h3 className=' fw-normal fs-4'>Success Every Day</h3>
+                                <p className='text-muted fs-6'>Far far away, behind the word mountains, 
+                                    far from the countries Vokalia and Consonantia, 
+                                    there live the blind texts.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                {/* Bring Idea to Life */}
-                <div className='col-md-6 col-lg-3'>
-                    <div className='service'>
-                        <div className='service-icon mb-4'>
-                            <FontAwesomeIcon icon={faPoll} className='fa-3x text-primary'/> 
-                        </div>
-                        <div className='service-contents'>
-                            <h3>Grow Your Business</h3>
-                            <p>Far far away, behind the word mountains, 
-                                far from the countries Vokalia and Consonantia.</p>
+                    {/* Bring Idea to Life */}
+                    <div className='col-md-6 col-lg-3'>
+                        <div className='service'>
+                            <div className='service-icon mb-4'>
+                                <FontAwesomeIcon icon={faClone} className='fa-3x text-primary'/> 
+                            </div>
+                            <div className='service-content'>
+                                <h3 className=' fw-normal fs-4'>Bring Idea to Life</h3>
+                                <p className='text-muted fs-6'>Far far away, behind the word mountains, 
+                                    far from the countries Vokalia and Consonantia, 
+                                    there live the blind texts.</p>
+                            </div>
                         </div>
                     </div>
                 </div>

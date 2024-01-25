@@ -11,22 +11,25 @@ import Testimonials from './Testimonials';
 import About from './About';
 import News from './News';
 import Contact from './Contact';
+import Footer from './Footer';
+import SellingService from './SellingService';
 
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
-      <Home/>
-      <Features></Features>
-      <Services/>
+      <Home/>                
+      <SellingService/>
+      <Services/>             
       <ServiceDetail/>
       <Pricing/>
       <Advantageous/>
       <Testimonials/>
       <About/>
       <News />
-      <Contact/>
+      <Contact/> 
+      <Footer/>
     </div>
   );
 }
