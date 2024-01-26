@@ -6,7 +6,7 @@ import { faArrowsRotate, faBriefcase, faClone, faPoll } from '@fortawesome/free-
 export default function Services() {
   return (
     <>
-        <div className='untree-session bg-light p-5'>
+        <div className='untree-session bg-light pt-5 pb-5'>
             <div className='container'>
                 <div className='row'>
                     <div className='col-12'>

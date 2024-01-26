@@ -30,7 +30,7 @@ export default function Footer() {
                         </div>
 
                         {/* Projects */}
-                        <div className="col-lg-2 ml-auto">
+                        <div className="col-lg-2 ml-auto mb-3">
                             <div className="widget">
                                 <h3 className='display-2 fw-normal fs-5 mb-4'>Projects</h3>
                                 <ul className="list-unstyled float-left ">
@@ -44,7 +44,7 @@ export default function Footer() {
                         </div>
 
                         {/* Service  */}
-                        <div className="col-lg-2">
+                        <div className="col-lg-2 mb-3">
                             <div className="widget">
                                 <h3 className='display-2 fw-normal fs-5 mb-4'>Services</h3>
                                 <ul className="list-unstyled float-left mb-2">
@@ -57,7 +57,7 @@ export default function Footer() {
                         </div>
 
                         {/* Contact  */}
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 mb-3">
                             <div className="widget">
                             <h3 className='display-2 fw-normal fs-5 mb-4'>Contact</h3>
                             <address className='mb-2 text-secondary'>43 Raymouth Rd. Baltemoer, London 3910</address>
