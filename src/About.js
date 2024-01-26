@@ -2,12 +2,13 @@ import React from 'react'
 import AboutImg from './images/about.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
+import CountUp from 'react-countup'
 
 export default function () {
   return (
     <>
-        <div className='untree-section pt-5 pb-5'>
-            <div className='container'>
+        <div className='untree-section pt-5 pb-5 ' id='about-session'>
+            <div className='container mt-lg-5'>
                 <div className='row justify-content-between'>
                     <div className='col-md-8'>
                         <img src={AboutImg} className=' img-fluid' alt='AboutImg'/>
@@ -39,14 +40,14 @@ export default function () {
                         <div className='row'>
                             <div className='col-lg-6'>
                                 <span className='d-block display-2 fs-2 fw-normal pb-2'>
-                                    <span data-number="59">59</span>
+                                    <span data-number="59"><CountUp end={59} duration={5}/></span>
                                     <span>M</span>
                                 </span>
                                 <span className=' text-uppercase text-muted small'>Members</span>
                             </div>
                             <div className='col-lg-6'>
                                 <span className='d-block display-2 fs-2 fw-normal pb-2'>
-                                    <span data-number="14">14</span>
+                                    <span data-number="14"><CountUp end={14} duration={5}/></span>
                                 </span>
                                 <span className=' text-uppercase text-muted small'>Team</span>
                             </div>

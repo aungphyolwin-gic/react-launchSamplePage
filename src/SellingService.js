@@ -7,10 +7,10 @@ import Person1 from './images/person_1.webp'
 export default function SellingService() {
   return (
     <>
-        <div className='untree-session pb-5 pt-5'>
-            <div className='container'>
+        <div className='untree-session pb-5 pt-5 ' id='feature-session'>
+            <div className='container mt-lg-5'>
                 <div className='row justify-content-between'>
-                    <div class="col-lg-4 text-start">
+                    <div class="col-lg-4 text-start order-0">
                         <span class=" text-uppercase text-primary fw-semibold">Digital Services</span>
                         <h3 class="display-2 fs-1 fw-normal" >Selling Digital Services</h3>
                         <div class="mb-4 text-body-tertiary" >
@@ -45,7 +45,7 @@ export default function SellingService() {
                         
                     </div>
 
-                    <div className='col-lg-7 p-3 shadow'>
+                    <div className='col-lg-7 p-3 shadow order-1'>
                         <a href='https://www.youtube.com/watch?v=ea0dBuzKUHk' className='btn-video'>
                             <img src={DashBoradImg} alt='Dashboard' className=' img-fluid'/>
                         </a>

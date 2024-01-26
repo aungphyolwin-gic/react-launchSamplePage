@@ -11,12 +11,12 @@ export default function Services() {
                 <div className='row'>
                     <div className='col-12'>
                         <div className='row justify-content-between'>
-                            <div className='col-md-7 p-3'>
+                            <div className='col-md-7 p-3 order-1'>
                                 <div className=' shadow p-2 bg-white'>
                                     <img className='img-fluid' src={Dashboard2}/>
                                 </div>
                             </div>
-                            <div className='col-md-5 p-3'>
+                            <div className='col-md-5 p-3 order-0'>
                                 
                                 {/* 1 card */}
                                 <div className='mb-3 table-hover'>

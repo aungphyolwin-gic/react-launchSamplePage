@@ -1,6 +1,5 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import NavBar from './NavBar';
 import Home from './Home';
 import Features from './Features';
 import Services from './Services';
@@ -13,12 +12,13 @@ import News from './News';
 import Contact from './Contact';
 import Footer from './Footer';
 import SellingService from './SellingService';
+import Header from './Header';
 
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+      <Header/>
       <Home/>                
       <SellingService/>
       <Services/>             

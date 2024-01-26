@@ -5,8 +5,8 @@ import React from 'react'
 export default function Contact() {
   return (
     <>
-        <div className='untree-session pt-5 pb-5'>
-            <div className='container'>
+        <div className='untree-session pt-5 pb-5' id='contact-section'>
+            <div className='container mt-lg-5'>
                 {/* contact header */}
                 <div className='row mb-4'>
                     <div className='col-12 text-center'>
@@ -41,7 +41,9 @@ export default function Contact() {
                                 <label class="" for="message">Message</label>
                                 <textarea name="" class="form-control  border-0 border-bottom" id="message" cols="30" rows="5"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">Send Message</button>
+                            <div className='text-start '>
+                                <button type="submit" class="btn btn-primary rounded-pill text-uppercase lh-lg">Send Message</button>
+                            </div>
                         </form>
                     </div>
                     {/* company contact info */}
@@ -51,24 +53,26 @@ export default function Contact() {
                             <span><FontAwesomeIcon icon={faMapMarkerAlt} className='mt-1 me-2'/></span>
                             <span>43 Raymouth Rd. Baltemoer, London 3910</span>
                         </address>
-                        <ul className='list-unstyled mb-4'>
-                            <li><a href="tel://0912345789" className='d-flex text-decoration-none text-dark'>
+                        <ul className='list-unstyled mb-4 pt-2 pb-3'>
+                            <li className='mb-3'>
+                                <a href="tel://0912345789" className='d-flex text-decoration-none text-dark'>
                                 <FontAwesomeIcon icon={faPhone} className='mt-1 me-2'/>
                                 <span>(+959)123-456-789</span>
                                 </a>
                             </li>
-                            <li><a href="tel://0912345789" className='d-flex text-decoration-none text-dark'>
+                            <li className='mb-3'>
+                                <a href="tel://0912345789" className='d-flex text-decoration-none text-dark'>
                                 <FontAwesomeIcon icon={faPhone} className='mt-1 me-2'/>
                                 <span>(+959)123-456-789</span>
                                 </a>
                             </li>
-                            <li>
+                            <li className='mb-3'>
                                 <a href="mailto://info@mydomain.com" className=' text-decoration-none d-flex text-dark'>
                                     <FontAwesomeIcon icon={faEnvelope} className='mt-1 me-2'/>
                                     <span>info@mydomain.com</span>
                                 </a>
                             </li>
-                            <li>
+                            <li className='mb-3'>
                                 <a href='#' target='_blank' className='text-decoration-none d-flex text-dark'>
                                     <FontAwesomeIcon icon={faGlobeEurope} className='mt-1 me-2'/>
                                     <span>https://Colorlib.com</span>
