@@ -45,10 +45,12 @@ export default function SellingService() {
                         
                     </div>
 
-                    <div className='col-lg-7 p-3 shadow order-1'>
-                        <a href='https://www.youtube.com/watch?v=ea0dBuzKUHk' className='btn-video'>
-                            <img src={DashBoradImg} alt='Dashboard' className=' img-fluid'/>
-                        </a>
+                    <div className='col-lg-7 p-3 order-1'>
+                        <div className='shadow'>
+                            <a href='https://www.youtube.com/watch?v=ea0dBuzKUHk' className='btn-video'>
+                                <img src={DashBoradImg} alt='Dashboard' className=' img-fluid'/>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
