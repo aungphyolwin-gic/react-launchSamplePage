@@ -23,7 +23,7 @@ export default function Testimonials() {
                     </div>
                     <div className='col-lg-8'>
                         <div className='row'>
-                            <div className='col-md-6 text-start'>
+                            <div className='col-md-6 text-start mb-4'>
                                 <div className=''>
                                     <div className='row'>
                                         <blockquote className=' blockquote text-wrap fst-italic fs-6'>
@@ -44,7 +44,7 @@ export default function Testimonials() {
                                 </div>
                             </div>
 
-                            <div className='col-md-6 text-start'>
+                            <div className='col-md-6 text-start mb-4'>
                                 <div className=''>
                                     <div className='row'>
                                         <blockquote className=' blockquote  text-wrap fst-italic fs-6'>

@@ -17,7 +17,7 @@ export default function Contact() {
                 {/* body input */}
                 <div className='row'>
                     {/* user contact info */}
-                    <div className='col-lg-7'>
+                    <div className='col-lg-7 mb-4'>
                         <form className="contact-form text-body-tertiary">
                             <div className="row text-start">
                                 <div className="col-6">
