@@ -18,31 +18,31 @@ export default function Contact() {
                 <div className='row'>
                     {/* user contact info */}
                     <div className='col-lg-7'>
-                        <form class="contact-form text-body-tertiary">
-                            <div class="row text-start">
-                                <div class="col-6">
-                                    <div class="form-group mb-4">
-                                        <label class="" for="fname">First name</label>
-                                        <input type="text" class="form-control border-0 border-bottom" id="fname"/>
+                        <form className="contact-form text-body-tertiary">
+                            <div className="row text-start">
+                                <div className="col-6">
+                                    <div className="form-group mb-4">
+                                        <label className="" htmlFor="fname">First name</label>
+                                        <input type="text" className="form-control border-0 border-bottom" id="fname"/>
                                     </div>
                                 </div>
-                                <div class="col-6">
-                                    <div class="form-group mb-4">
-                                        <label class="" for="lname">Last name</label>
-                                        <input type="text" class="form-control  border-0 border-bottom" id="lname"/>
+                                <div className="col-6">
+                                    <div className="form-group mb-4">
+                                        <label className="" htmlFor="lname">Last name</label>
+                                        <input type="text" className="form-control  border-0 border-bottom" id="lname"/>
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group mb-4 text-start">
-                                <label class="" for="email">Email address</label>
-                                <input type="email" class="form-control  border-0 border-bottom" id="email"/>
+                            <div className="form-group mb-4 text-start">
+                                <label className="" htmlFor="email">Email address</label>
+                                <input type="email" className="form-control  border-0 border-bottom" id="email"/>
                             </div>
-                            <div class="form-group mb-4 text-start">
-                                <label class="" for="message">Message</label>
-                                <textarea name="" class="form-control  border-0 border-bottom" id="message" cols="30" rows="5"></textarea>
+                            <div className="form-group mb-4 text-start">
+                                <label className="" htmlFor="message">Message</label>
+                                <textarea name="" className="form-control  border-0 border-bottom" id="message" cols="30" rows="5"></textarea>
                             </div>
                             <div className='text-start '>
-                                <button type="submit" class="btn btn-primary rounded-pill text-uppercase lh-lg">Send Message</button>
+                                <button type="submit" className="btn btn-primary rounded-pill text-uppercase lh-lg">Send Message</button>
                             </div>
                         </form>
                     </div>

@@ -18,7 +18,7 @@ import Header from './Header';
 function App() {
   return (
     <div className="App">
-      <Header/>
+       <Header/>
       <Home/>                
       <SellingService/>
       <Services/>             
@@ -29,7 +29,7 @@ function App() {
       <About/>
       <News />
       <Contact/> 
-      <Footer/>
+      <Footer/> 
     </div>
   );
 }

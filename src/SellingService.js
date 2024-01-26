@@ -10,23 +10,23 @@ export default function SellingService() {
         <div className='untree-session pb-5 pt-5 ' id='feature-session'>
             <div className='container mt-lg-5'>
                 <div className='row justify-content-between'>
-                    <div class="col-lg-4 text-start order-0">
-                        <span class=" text-uppercase text-primary fw-semibold">Digital Services</span>
-                        <h3 class="display-2 fs-1 fw-normal" >Selling Digital Services</h3>
-                        <div class="mb-4 text-body-tertiary" >
+                    <div className="col-lg-4 text-start order-0">
+                        <span className=" text-uppercase text-primary fw-semibold">Digital Services</span>
+                        <h3 className="display-2 fs-1 fw-normal" >Selling Digital Services</h3>
+                        <div className="mb-4 text-body-tertiary" >
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast</p>
-                            <ul class="list-unstyled ">
+                            <ul className="list-unstyled ">
                                 <li><FontAwesomeIcon icon={faCheck} className='text-primary pe-3'/>There live the blind texts</li>
                                 <li><FontAwesomeIcon icon={faCheck} className='text-primary pe-3'/>Far far away behind the word</li>
                             </ul>
                         </div> 
                         
-                            <div class="mb-4">
-                                <div class="d-flex">
-                                    <div class="text">
+                            <div className="mb-4">
+                                <div className="d-flex">
+                                    <div className="text">
                                         <blockquote className=' blockquote fs-5 fst-italic mb-4'>
                                             "Separated they 
-                                            <span class="highlight">live in Bookmarksgrove right at the coast of the Semantics
+                                            <span className="highlight">live in Bookmarksgrove right at the coast of the Semantics
                                             </span>, a large language ocean. A small river named Duden flows by their place and 
                                             supplies it with the necessary regelialia."
                                         </blockquote>
