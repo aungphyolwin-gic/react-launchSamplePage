@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Profile1 from './images/person_1.webp'
 import Profile2 from './images/person_2.jpg.webp'
 import Profile3 from './images/person_3.jpg.webp'
+import './News.css'
 import React from 'react'
 
 export default function New() {
@@ -18,7 +19,7 @@ export default function New() {
                 </div>
                 <div className='row justify-content-center'>
                     {/* card 1  */}
-                    <div className='col-md-3 m-2 bg-white'>
+                    <div className='card-hover col-md-3 m-2 bg-white'>
                         <div className='p-3 text-start'>
                             <div className='d-flex align-items-center mb-4'>
                                 <div>
@@ -42,7 +43,7 @@ export default function New() {
                     </div>
 
                     {/* card 2 */}
-                    <div className='col-md-3 m-2 bg-white'>
+                    <div className='card-hover col-md-3 m-2 bg-white'>
                         <div className='p-3 text-start'>
                             <div className='d-flex align-items-center mb-4'>
                                 <div>
@@ -66,7 +67,7 @@ export default function New() {
                     </div>
 
                     {/* card 3 */}
-                    <div className='col-md-3 m-2 bg-white'>
+                    <div className='card-hover col-md-3 m-2 bg-white'>
                         <div className='p-3 text-start'>
                             <div className='d-flex align-items-center mb-4'>
                                 <div>

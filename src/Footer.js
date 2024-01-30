@@ -75,7 +75,7 @@ export default function Footer() {
                         <div className="col-12 text-center pt-3 pb-3">
                             <p className='text-secondary'>
                                 Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                                2024 All rights reserved | This template is made with 
+                                2024 All rights reserved | This template is made with &nbsp;
                                 <FontAwesomeIcon icon={faHeart} className='text-danger'/> by 
                                 <a href="https://colorlib.com" target="_blank" className=' text-decoration-none'> Colorlib</a>
                             </p>

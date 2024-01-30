@@ -1,7 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Home from './Home';
-import Features from './Features';
 import Services from './Services';
 import ServiceDetail from './ServiceDetail';
 import Pricing from './Pricing';
@@ -18,7 +17,7 @@ import Header from './Header';
 function App() {
   return (
     <div className="App">
-       <Header/>
+      <Header/>
       <Home/>                
       <SellingService/>
       <Services/>             

@@ -18,8 +18,8 @@ export default function () {
                 <div className='row'>
                     <div className='col-lg-6 mb-4'>
                         <div className='service d-flex'>
-                            <div className=' mb-4 me-4'>
-                                <FontAwesomeIcon icon={faPoll} className=' fa-2x text-info '/>
+                            <div className='btn btn-info text-white h-25 rounded-4 mb-4 me-4'>
+                                <FontAwesomeIcon icon={faPoll} className='fs-3'/>
                             </div>
                             <div className='service-content text-start'>
                                 <h3 className=' fw-normal fs-5 text-black'>Grow Your Business</h3>
@@ -33,8 +33,8 @@ export default function () {
                     {/* Advantageous 2 */}
                     <div className='col-lg-6 mb-4'>
                         <div className='service d-flex'>
-                            <div className=' mb-4 me-4'>
-                                <FontAwesomeIcon icon={faArrowsRotate} className=' fa-2x text-warning '/>
+                            <div className='btn btn-warning text-white h-25 rounded-4 mb-4 me-4'>
+                                <FontAwesomeIcon icon={faArrowsRotate} className='fs-3'/>
                             </div>
                             <div className='service-content text-start'>
                                 <h3 className=' fw-normal fs-5 text-black'>Build Products</h3>
@@ -48,8 +48,8 @@ export default function () {
                     {/* Advantageous 3 */}
                     <div className='col-lg-6 mb-4'>
                         <div className='service d-flex'>
-                            <div className=' mb-4 me-4'>
-                                <FontAwesomeIcon icon={faBriefcase} className=' fa-2x text-danger '/>
+                            <div className='btn btn-danger text-white h-25 rounded-4 mb-4 me-4'>
+                                <FontAwesomeIcon icon={faBriefcase} className='fs-3'/>
                             </div>
                             <div className='service-content text-start'>
                                 <h3 className=' fw-normal fs-5 text-black'>Success Every Day</h3>
@@ -63,8 +63,8 @@ export default function () {
                     {/* Advantageous 4 */}
                     <div className='col-lg-6 mb-4'>
                         <div className='service d-flex'>
-                            <div className=' mb-4 me-4'>
-                                <FontAwesomeIcon icon={faClone} className=' fa-2x text-primary '/>
+                            <div className='btn btn-primary text-white h-25 rounded-4 mb-4 me-4'>
+                                <FontAwesomeIcon icon={faClone} className='fs-3'/>
                             </div>
                             <div className='service-content text-start'>
                                 <h3 className=' fw-normal fs-5 text-black'>Bring Idea To Life</h3>

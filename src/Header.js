@@ -6,7 +6,7 @@ export default function Header() {
         <div className='bg-white fixed-top shadow'>
             <nav className="container navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <a className="navbar-brand display-3 fw-semibold" href="#">
+                    <a className="navbar-brand display-3 fw-semibold pb-3" href="#">
                         Launch<span className='text-primary fs-3'>.</span>
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" 

@@ -7,6 +7,7 @@ import Person1 from './images/person_1.webp'
 export default function SellingService() {
   return (
     <>
+        {/* Feature : Digital Selling session  */}
         <div className='untree-session pb-5 pt-5 ' id='feature-session'>
             <div className='container mt-lg-5'>
                 <div className='row justify-content-between'>

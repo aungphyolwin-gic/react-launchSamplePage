@@ -11,8 +11,8 @@ export default function ServiceDetail() {
                     {/* Grow your Business */}
                     <div className='col-md-6 col-lg-3'>
                         <div className='service'>
-                            <div className='service-icon mb-4 '>
-                                <FontAwesomeIcon icon={faPoll} className='fa-3x text-info' /> 
+                            <div className='btn btn-info btn-lg text-white h-25 rounded-4 mb-4'>
+                                <FontAwesomeIcon icon={faPoll} className='fs-2' /> 
                             </div>
                             <div className='service-content'>
                                 <h3 className=' fw-normal fs-4'>Grow Your Business</h3>
@@ -26,8 +26,8 @@ export default function ServiceDetail() {
                     {/* Build Products */}
                     <div className='col-md-6 col-lg-3'>
                         <div className='service'>
-                            <div className='service-icon mb-4'>
-                                <FontAwesomeIcon icon={faArrowsRotate} className='fa-3x text-warning' /> 
+                            <div className='btn btn-warning btn-lg text-white h-25 rounded-4 mb-4'>
+                                <FontAwesomeIcon icon={faArrowsRotate} className='fs-2' /> 
                             </div>
                             <div className='service-content'>
                                 <h3 className=' fw-normal fs-4'>Build Products</h3>
@@ -41,8 +41,8 @@ export default function ServiceDetail() {
                     {/* Success Every Day */}
                     <div className='col-md-6 col-lg-3'>
                         <div className='service'>
-                            <div className='service-icon mb-4'>
-                                <FontAwesomeIcon icon={faBriefcase} className='fa-3x text-danger'/> 
+                            <div className='btn btn-danger btn-lg text-white h-25 rounded-4 mb-4'>
+                                <FontAwesomeIcon icon={faBriefcase} className='fs-2'/> 
                             </div>
                             <div className=''>
                                 <h3 className=' fw-normal fs-4'>Success Every Day</h3>
@@ -56,8 +56,8 @@ export default function ServiceDetail() {
                     {/* Bring Idea to Life */}
                     <div className='col-md-6 col-lg-3'>
                         <div className='service'>
-                            <div className='service-icon mb-4'>
-                                <FontAwesomeIcon icon={faClone} className='fa-3x text-primary'/> 
+                            <div className='btn btn-primary btn-lg text-white h-25 rounded-4 mb-4'>
+                                <FontAwesomeIcon icon={faClone} className='fs-2'/> 
                             </div>
                             <div className='service-content'>
                                 <h3 className=' fw-normal fs-4'>Bring Idea to Life</h3>

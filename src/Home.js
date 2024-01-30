@@ -10,7 +10,7 @@ export default function home() {
                     <div className='col-md-12'>
                         <div className='row align-items-center pb-5'>
                             {/* first column of home session */}
-                            <div className='col-md-5 text-start order-1'>
+                            <div className='col-md-5 text-start order-md-0 order-1'>
                                 <h1 className=' display-3 fw-semibold mb-4'>Promote Your Products by Colorlib</h1>
                                 <div className='mb-4'>
                                     <p className='text-secondary '>
@@ -27,7 +27,7 @@ export default function home() {
                                 </div>
                             </div>
                             {/* second column of home session */}
-                            <div className='col-md-6 order-0'>
+                            <div className='col-md-6 '>
                                 <img src={LaunchImg} alt='Image' className='image-fluid'></img>
                             </div>
                         </div>
