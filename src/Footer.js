@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDribbble, faDribbbleSquare, faFacebook, faFacebookSquare, faInstagram, faInstagramSquare, faLinkedin, faPinterest, faPinterestSquare, faTwitter, faTwitterSquare } from '@fortawesome/free-brands-svg-icons'
-import { faHeart } from '@fortawesome/free-solid-svg-icons'
+import { faDribbble, faInstagram, faFacebook,  faLinkedin, faPinterest,  faTwitter, } from '@fortawesome/free-brands-svg-icons'
+import {  faGlobeEurope, faHeart,  faMapMarkerAlt, faMobileRetro, faPhone } from '@fortawesome/free-solid-svg-icons'
 
 export default function Footer() {
   return (
@@ -60,11 +60,29 @@ export default function Footer() {
                         <div className="col-lg-3 mb-3">
                             <div className="widget">
                             <h3 className='display-2 fw-normal fs-5 mb-4'>Contact</h3>
-                            <address className='mb-2 text-secondary'>43 Raymouth Rd. Baltemoer, London 3910</address>
+                            <address className='mb-2 text-secondary'>
+                                <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2'/>
+                                43 Raymouth Rd. Baltemoer, London 3910
+                            </address>
                             <ul className="list-unstyled links mb-4">
-                                <li className='mb-2'><a href="tel://11234567890" className='text-decoration-none text-secondary'>+1(123)-456-7890</a></li>
-                                <li className='mb-2'><a href="tel://11234567890" className='text-decoration-none text-secondary'>+1(123)-456-7890</a></li>
-                                <li className='mb-2'><a href="mailto:info@mydomain.com" className='text-decoration-none text-secondary'>info@mydomain.com</a></li>
+                                <li className='mb-2'>
+                                    <a href="tel://11234567890" className='text-decoration-none text-secondary'>
+                                        <FontAwesomeIcon icon={faPhone} className='me-2'/>
+                                        +1(123)-456-7890
+                                    </a>
+                                </li>
+                                <li className='mb-2'>
+                                    <a href="tel://11234567890" className='text-decoration-none text-secondary'>
+                                        <FontAwesomeIcon icon={faMobileRetro} className='me-3'/>
+                                        +1(123)-456-7890
+                                    </a>
+                                </li>
+                                <li className='mb-2'>
+                                    <a href="mailto:info@mydomain.com" className='text-decoration-none text-secondary'>
+                                        <FontAwesomeIcon icon={faGlobeEurope} className='me-2'/>
+                                        info@mydomain.com
+                                    </a>
+                                </li>
                             </ul>
                             </div> 
                         </div>
