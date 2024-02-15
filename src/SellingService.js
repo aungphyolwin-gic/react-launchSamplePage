@@ -9,7 +9,7 @@ export default function SellingService() {
     <>
         {/* Feature : Digital Selling session  */}
         <div className='untree-session pb-5 pt-5 ' id='feature-session'>
-            <div className='container mt-lg-5'>
+            <div className='container mt-5'>
                 <div className='row justify-content-between'>
                     <div className="col-lg-4 text-start order-0">
                         <span className=" text-uppercase text-primary fw-semibold">Digital Services</span>

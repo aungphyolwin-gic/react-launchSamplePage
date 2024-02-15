@@ -10,7 +10,7 @@ export default function New() {
   return (
     <> 
        <div className='untree-session bg-light pt-5 pb-5'>
-            <div className='container'>
+            <div className='container mt-5'>
                 <div className='row mb-4'>
                     <div className='col-12 text-center'>
                         <h2 className='display-2 fs-1 fw-normal'>Our News</h2>

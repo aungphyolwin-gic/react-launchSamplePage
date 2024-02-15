@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
@@ -17,14 +18,14 @@ export default function Header() {
                     <div className="collapse navbar-collapse" id='navbarSupportedContent'>
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#home-session">Home</a>
+                                <Link className="nav-link active" aria-current="page" to={'/'}>Home</Link>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
                                     Dropdown
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="#testimonial-session">Testimonials</a></li>
+                                    <li><Link className="dropdown-item" to={'/testimonials'}>Testimonials</Link></li>
                                     <li>
                                         <a className="dropdown-item dropdown-menu-end" href="#">Menu Two</a>
                                         
@@ -34,16 +35,16 @@ export default function Header() {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#feature-session">Features</a>
+                                <Link className="nav-link active" aria-current="page" to='/feature'>Features</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#price-session">Pricing</a>
+                                <Link className="nav-link active" aria-current="page" to={'/price'}>Pricing</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#about-session">About</a>
+                                <Link className="nav-link active" aria-current="page"to={'/about '}>About</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#contact-section">Contact</a>
+                                <Link className="nav-link active" aria-current="page" to={'/contact'}>Contact</Link>
                             </li>
                         </ul>
                         <form className="d-flex">

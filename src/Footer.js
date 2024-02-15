@@ -7,7 +7,7 @@ export default function Footer() {
     <>
         <footer>
             <div className='footer-section bg-body-secondary pt-5'>
-                <div className='container'>
+                <div className='container '>
                     <div className='row text-start'>
                         <div className="col-lg-4">
                             <div className="widget">

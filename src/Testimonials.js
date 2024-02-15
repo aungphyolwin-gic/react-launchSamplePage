@@ -9,7 +9,7 @@ export default function Testimonials() {
   return (
     <>
         <div className="untree-session pb-5 pt-5" id="testimonial-session">
-            <div className="container mt-lg-5">
+            <div className="container mt-5">
                 {/* to divide two column in a row "Header and Author" */}
                 <div className="row">
                     {/* Column 1 : Caption and header column Testimonials */}

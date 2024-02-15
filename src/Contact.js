@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <>
         <div className='untree-session pt-5 pb-5' id='contact-section'>
-            <div className='container mt-lg-5'>
+            <div className='container mt-5'>
                 {/* contact header */}
                 <div className='row mb-4'>
                     <div className='col-12 text-center'>

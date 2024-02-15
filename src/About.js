@@ -8,7 +8,7 @@ export default function () {
   return (
     <>
         <div className='untree-section pt-5 pb-5 ' id='about-session'>
-            <div className='container mt-lg-5'>
+            <div className='container mt-5'>
                 <div className='row justify-content-between'>
                     <div className='col-md-8'>
                         <img src={AboutImg} className=' img-fluid' alt='AboutImg'/>

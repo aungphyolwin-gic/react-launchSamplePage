@@ -6,7 +6,7 @@ export default function ServiceDetail() {
   return (
     <>
         <div className='untree-session pt-5 pb-5'>
-            <div className='container'>
+            <div className='container mt-5'>
                 <div className='row text-start'>
                     {/* Grow your Business */}
                     <div className='col-md-6 col-lg-3'>

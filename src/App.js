@@ -12,24 +12,68 @@ import Contact from './Contact';
 import Footer from './Footer';
 import SellingService from './SellingService';
 import Header from './Header';
+import {
+  createBrowserRouter,
+  Outlet,
+  RouterProvider,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <><Header/><Home/> <Footer/></>,
+  },
+  {
+    path: "/selling",
+    element: <SellingService/>,
+  },
+  {
+    path: "/service",
+    element: <Services/>,
+  },
+  {
+    path: "/feature",
+    element: <><Header/><ServiceDetail/><Footer/></>,
+  },
+  {
+    path: "/price",
+    element:<><Header/><Pricing/> <Footer/></>,
+  },
+  {
+    path: "/advantageous",
+    element: <><Header/><Advantageous/> <Footer/></> ,
+  },
+  {
+    path: "/testimonials",
+    element: <><Header/><Testimonials/> <Footer/></> ,
+  },
+  {
+    path: "/about",
+    element: <><Header/><About/> <Footer/></> ,
+  },
+  {
+    path: "/news",
+    element: <><Header/><News/> <Footer/></> ,
+  },
+  {
+    path: "/contact",
+    element: <><Header/><Contact/> <Footer/></> 
+  },  
+
+]);
 
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Home/>                
-      <SellingService/>
-      <Services/>             
-      <ServiceDetail/>
-      <Pricing/>
-      <Advantageous/>
-      <Testimonials/>
-      <About/>
-      <News />
-      <Contact/> 
-      <Footer/> 
-    </div>
+    
+    <>
+      
+      <RouterProvider router={router}>
+        <Outlet/>
+      </RouterProvider>
+      
+    </> 
+    
   );
 }
 

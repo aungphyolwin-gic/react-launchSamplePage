@@ -6,7 +6,7 @@ export default function Pricing() {
   return (
     <>
         <div className='bg-light pt-5 pb-5 ' id='price-session'>
-            <div className='container mt-lg-5'>
+            <div className='container mt-5'>
                 <div className='row'>
                     <div className='col-12 text-center mb-5'>
                         <h2 className='display-2 fs-1 fw-normal'>Pricing</h2>
